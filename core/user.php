@@ -1,5 +1,5 @@
 <?php
-
+$GLOBALS['myglobe'] = 'hello I am global';
 class User{
 	private $text = null;
 	
@@ -9,6 +9,7 @@ class User{
 	}
 	
 	public function clearText() {
+
 		$this->text = null;
 	}
 	
